@@ -1,2 +1,10 @@
 "use strict";
-console.log("I really don't know what I am going to be using this for yet.");
+const FLAPPYBIRDLINKID = "FlappyBirdGithubButton";
+const FLAPPYBIRDURL = "https://github.com/DLamb-TheFallen/Flappy-Bird-Python";
+linkButton(FLAPPYBIRDLINKID, FLAPPYBIRDURL);
+function linkButton(buttonId, link) {
+    document.getElementById(buttonId)?.addEventListener("click", function () {
+        window.open(link, "_blank");
+        console.log("Hitting Button " + buttonId);
+    });
+}
