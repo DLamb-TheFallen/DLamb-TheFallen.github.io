@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "outDir": "./dest",
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
